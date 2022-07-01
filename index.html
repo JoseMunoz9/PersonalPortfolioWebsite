@@ -1,57 +1,137 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="./css/stylesheet.css" type="text/css" rel="stylesheet">
         <title>Jose Munoz - Portfolio website</title>
-        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700;&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
     </head>
     <body>
-        <p>Portfolio</p>
-        <hr>
+
         <a href="education.html">EDUCATION</a> |
         <a href="workexperience.html">WORK EXPERIENCE</a> |
         <a href="hobbies.html">HOBBIES</a> |
 
-        <h1>Welcome To My Profile</h1>
+        <!----Hero section start---->
+        <div class="hero">
+            <nav>
+                <h2 class="logo">Welcome To <span>My Profile</span></h2>
+                <ul>
+                    <li><a href="education.html"></a>EDUCATION</li>
+                    <li><a href="workexperience.html"></a>WORK EXPERIENCE</li>
+                    <li><a href="hobbies.html"></a>HOBBIES</li>
+                </ul>
+                <a href="https://www.instagram.com/joemunx/?hl=en" class="btn">Follow me on Instagram</a>
+            </nav>
 
-        <h2>ABOUT MYSELF</h2>
+            <div class="content">
+                <h4>Hello, my name is</h4>
+                <h1>Jose <span>Munoz</span></h1>
+                <h3>I'm a recent IT Graduate</h3>
+                <div class="newslatter">
+                    <form>
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                        <input type="submit" name="submit" value="Lets Start">
+                    </form>
+                </div>
 
-        <p>Over 8 years' experience in customer focused environment where I developed excellent communication and customer service skills.</p>
-        <p>Confident and competent in the use of IT Software, Systems and Principles.</p>
-        <hr>
+            </div>
+        </div>
+        <!---Section--->
+        <section class="about">
+            <div class="main">
+                <img src="img/background.jpg">
+                <div class="about-text">
+                    <h2>About me:</h2>
+                    <h5>Junior Developer <span>& Designer</span></h5>
+                    <p>Over 8 years' experience in customer focused environment where I developed excellent communication and customer service skills.
+                        Confident and competent in the use of IT Software, Systems and Principles.
+                    </p>
+                    <p>I am now keen to demonstratemy technical problem-solving ability and leadership potential in a fast-paced dynamic environment.
+                    I am actively seeking employment opportunities in the ICT sector, especially in the area of Software Development, Technical Support, Cloud Services and System Security.
+                    </p>
+                    <button type="button">Let's Talk</button>
+                </div>
+            </div>
+        </section>
 
-        <p>I am now keen to demonstratemy technical problem-solving ability and leadership potential in a fast-paced dynamic environment.</p>
-        <p>I am actively seeking employment opportunities in the ICT sector, especially in the area of Software Development, Technical Support, Cloud Services and System Security.</p>
+        <!--Serive Section-->
+        <div class="service">
+            <div class="title">
+                <h2>KEY SKILLS</h2>
+            </div>
+
+            <div class="box">
+                <div class="card">
+                    <i class="fa-solid fa-binary"></i>
+                    <h5>Programming</h5>
+                    <div class="pra">
+                        <p>Java, Python, JavaScript, RStudio.</p>
+
+                        <p style="text-align:center;">
+                           <a class="button" href="education.html">Read more</a>
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-cloud"></i>
+                        <h5>Cloud Technologies</h5>
+                        <div class="pra">
+                            <p>Familiar with AWS and Google Cloud.</p>
+    
+                            <p style="text-align:center;">
+                               <a class="button" href="education.html">Read more</a>
+                            </p>
+                        </div>
+
+                        <div class="card">
+                            <i class="fa-solid fa-server"></i>
+                            <h5>Networking</h5>
+                            <div class="pra">
+                                <p>Routing & Switching Protocols, WLAN/LAN, connectivity, troubleshooting.</p>
         
-        <h3>KEY SKILLS</h3>
+                                <p style="text-align:center;">
+                                   <a class="button" href="education.html">Read more</a>
+                                </p>
+                            </div>
+                            </div>
 
-        <p><li>Programming: Java, Python, JavaScript, RStudio.</li></p>
-        <p><li>Cloud Technologies: Familiar with AWS and Google Cloud.</li></p>
-        <p><li>Networking: Routing & Switching Protocols, WLAN/LAN, connectivity, troubleshooting.</li></p>
-        <p><li>Web Development: CSS, HTML, Node.js, SQL.</li></p>
-        <p><li>Graphic Design: Familiar with Photoshop, 3ds Max, Adobe Ilustrator, Microsoft Publisher.</li></p>
-        <p><li>Operating Systems: Familiar with Mac OS X, Microsoft OS, Linux.</li></p>
-        <p><li>Excellent customer service and communication skills.</li></p>
-        <p><li>Technical problem-solving ability.</li></p>
-        <p><li>Leadership and negotiating skills.</li></p>
-        <p><li>Languages: Spanish and English.</li></p>
-        <p><li>AMADEUS expert and familiar with SABRE.</li></p>
-        <p><li>Growth mindset.</li></p>
+                            <div>
+                                <i class="fa-solid fa-brackets-curly"></i>
+                                <h5>Web Development</h5>
+                                <div class="pra">
+                                    <p>CSS, HTML, Node.js, SQL.</p>
+                                    <p style="text-align:center;">
+                                        <a class="button" href="education.html">Read more</a>
+                                    </p>
+                                </div>>
+                            </div>
+                </div>
+            </div>
+        </div>
 
-        <h4>CONTACT ME</h4>
-        <p><li>M: +353 83 133 1288</li></p>
-        <p><li>E-mail: jommunoz90@gmail.com</li></p>
+        <!--Contact Me-->
+        <div class="contact-me">
+            <p>You can reach me out on:</p>
+            <a class="button-two" href="https://www.linkedin.com/in/jose-munoz90/"><i class="fa-brands fa-linkedin">LinkedIn</i></a>
+            <p>E-mail:</p>
+            <i class="fa-solid fa-envelope-circle-check">jommunoz90@gmail.com</i>
+            <p>Mobile:</p>
+            <i class="fa-solid fa-phone-plus">+353 83 133 1288</i>
+        </div>
 
-        <h3>Social Media</h3>
-
-        <p><li>LinkedIn</li></p>
-        <ol><a href="https://www.linkedin.com/in/jose-munoz90/">Profile</a></ol>
-        <p><li>GitHub</li></p>
-        <ol><a href="https://github.com/JoseMunoz9/Portfolio.git"></a>Portfolio</ol>
-
-        <p>Thank you for time & consideration</p>
-
+        <!--Footer-->
+        <footer>
+            <p>Jose Munoz</p>
+            <p>Thanks for visiting my profile. - You can check my Portfolio in GitHub by clicking on the link
+                bellow:</p>
+                <div class="social">
+                    <a href="https://github.com/JoseMunoz9/Portfolio.git"><i class="fa-brands fa-github"></i>"></a>
+                </div>
+                <p class="end">CopyRight by Jose Munoz</p>
+        </footer>
     </body>
 </html>
