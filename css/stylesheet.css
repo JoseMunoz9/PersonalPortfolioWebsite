@@ -57,10 +57,10 @@ nav ul li a{
     text-transform: capitalize;
 }
 nav ul li a:hover{
-    coolor: #f9004d;
-    tramsition: .4s;
+    color: #f9004d;
+    transition: .4s;
 }
-.btn{
+.hero .btn{
     background-color: #f9004d
     color white;
     text-decoration: none;
@@ -70,7 +70,7 @@ nav ul li a:hover{
     border-radius: 30px;
     transition: transform .4s;
 }
-.btn:hover{
+.hero .btn:hover{
     transform: scale(1.2);
 }
 .content{
@@ -168,7 +168,7 @@ button:hover{
     min-height: 400px;
 }
 .card{
-    height: 1010px;
+    height: 1190px;
     width: 835px;
     padding: 20px 35px;
     background: #191919;
@@ -219,7 +219,7 @@ button:hover{
     cursor: pointer;
 }
 .card-two{
-    height: 365px;
+    height: 465px;
     width: 835px;
     padding: 20px 35px;
     background: #191919;
@@ -252,7 +252,7 @@ button:hover{
     cursor: pointer;
 }
 .card-three{
-    height: 680px;
+    height: 780px;
     width: 835px;
     padding: 20px 35px;
     background: #191919;
