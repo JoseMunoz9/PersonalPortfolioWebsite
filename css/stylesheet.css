@@ -60,9 +60,9 @@ nav ul li a:hover{
     color: #f9004d;
     transition: .4s;
 }
-.hero .btn{
-    background-color: #f9004d
-    color white;
+.btn{
+    background-color: #f9004d;
+    color: white;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -70,7 +70,7 @@ nav ul li a:hover{
     border-radius: 30px;
     transition: transform .4s;
 }
-.hero .btn:hover{
+.btn:hover{
     transform: scale(1.2);
 }
 .content{
