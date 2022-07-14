@@ -371,12 +371,14 @@ h5{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 .contact-me p{
     color: white;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
+    text-align: center;
 }
 .contact-me .button-two{
     background-color: #f9004d;
