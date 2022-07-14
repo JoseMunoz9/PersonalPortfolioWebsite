@@ -122,11 +122,13 @@ h4{
 .about{
     width: 100%;
     padding: 100px 0px;
+    padding-left: 10px;
     background-color: #191919;
 }
 .about img{
     height: auto;
     width: 430px;
+    padding-right: 10px;
 }
 .about-text{
     width: 550px;
@@ -194,7 +196,7 @@ button:hover{
 }
 .card{
     height: 1190px;
-    width: 835px;
+    width: 900px;
     padding: 20px 35px;
     background: #191919;
     border-radius: 20px;
