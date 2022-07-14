@@ -394,7 +394,7 @@ h5{
     cursor: pointer;
 }
 footer{
-    position: relative;
+    position: center;
     width: 100%;
     height: 400px;
     background: #030303;
@@ -437,7 +437,7 @@ footer p:nth-child(2){
     transition: .3s;
 }
 .end{
-    position: absolute;
+    position: center;
     color: #f9004d;
     bottom: 35px;
     font-size: 14px;
