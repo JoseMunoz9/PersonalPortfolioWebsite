@@ -84,7 +84,7 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
-    text-align: center;
+    text-align: justify;
     font-weight: bold;
     text-transform: capitalize;
 }
