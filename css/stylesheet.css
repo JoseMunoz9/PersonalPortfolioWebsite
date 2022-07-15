@@ -61,7 +61,7 @@ img:hover{
 }
 nav{
     display: flex;
-    align-items: justify;
+    align-items: center;
     justify-content: space-between;
     padding-top: 45px;
     padding-left: 8%;
