@@ -61,12 +61,11 @@ img:hover{
 }
 nav{
     display: flex;
-    align-items: center;
+    align-items: justify;
     justify-content: space-between;
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
-    text-align: justify;
 }
 .logo{
     color: white;
@@ -85,7 +84,6 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
-    text-align:  center;
     font-weight: bold;
     text-transform: capitalize;
 }
