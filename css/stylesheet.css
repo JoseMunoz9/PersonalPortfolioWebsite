@@ -66,6 +66,7 @@ nav{
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
+    text-align: center;
 }
 .logo{
     color: white;
@@ -84,7 +85,7 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
-    text-align: justify;
+    text-align:  center;
     font-weight: bold;
     text-transform: capitalize;
 }
